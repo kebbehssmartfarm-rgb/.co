@@ -1,0 +1,189 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kebbeh Agricultural Farm</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+    .hero {
+      background-image: url('images/farm-banner.jpg'); /* Replace with your own banner image */
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- HEADER -->
+  <header class="bg-green-800 text-white py-4 sticky top-0 z-50 shadow-md">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <h1 class="text-2xl font-bold">Kebbeh Agricultural Farm</h1>
+      <nav>
+        <a href="#about" class="px-3 hover:text-yellow-300">About</a>
+        <a href="#activities" class="px-3 hover:text-yellow-300">Activities</a>
+        <a href="#products" class="px-3 hover:text-yellow-300">Products</a>
+        <a href="#projects" class="px-3 hover:text-yellow-300">Projects</a>
+        <a href="#gallery" class="px-3 hover:text-yellow-300">Gallery</a>
+        <a href="#contact" class="px-3 hover:text-yellow-300">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero h-screen flex flex-col justify-center items-center text-center text-white bg-opacity-80 bg-green-900">
+    <div class="bg-black bg-opacity-50 p-6 rounded-xl">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4">Cultivating Growth, Empowering Communities</h2>
+      <p class="text-lg md:text-xl mb-6">Promoting sustainable farming and community development in The Gambia.</p>
+      <a href="#about" class="bg-yellow-400 text-green-900 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500">Learn More</a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-16 bg-white">
+    <div class="container mx-auto px-6 md:px-12 text-center">
+      <h2 class="text-3xl font-bold text-green-800 mb-6">About Us</h2>
+      <p class="max-w-3xl mx-auto mb-6">Founded by <strong>Mr. Foday Kebbeh</strong>, Kebbeh Agricultural Farm is dedicated to producing quality crops and livestock while promoting sustainable agriculture and empowering rural youth in The Gambia.</p>
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <img src="images/foday-kebbeh.jpg" alt="Foday Kebbeh" class="rounded-2xl shadow-lg"> <!-- Replace with your own image -->
+        <div class="text-left">
+          <h3 class="text-2xl font-semibold mb-2 text-green-700">Mission</h3>
+          <p class="mb-4">To produce quality agricultural products while empowering local communities through sustainable farming practices.</p>
+          <h3 class="text-2xl font-semibold mb-2 text-green-700">Vision</h3>
+          <p class="mb-4">A self-reliant farming community where agriculture creates prosperity for all.</p>
+          <ul class="list-disc ml-6">
+            <li>Hard work and honesty</li>
+            <li>Sustainability and innovation</li>
+            <li>Community development</li>
+            <li>Youth empowerment</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACTIVITIES SECTION -->
+  <section id="activities" class="py-16 bg-green-50">
+    <div class="container mx-auto px-6 md:px-12">
+      <h2 class="text-3xl font-bold text-center text-green-800 mb-12">Our Activities</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition">
+          <img src="images/crop-farming.jpg" alt="Crop Farming" class="rounded-xl mb-4">
+          <h3 class="text-xl font-semibold text-green-700 mb-2">Crop Production</h3>
+          <p>We grow maize, groundnuts, rice, and vegetables, providing chemical-free produce to local markets and households.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition">
+          <img src="images/livestock.jpg" alt="Livestock" class="rounded-xl mb-4">
+          <h3 class="text-xl font-semibold text-green-700 mb-2">Livestock & Poultry</h3>
+          <p>We raise goats, sheep, and poultry with proper care to ensure healthy and high-quality livestock.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition">
+          <img src="images/water-project.jpg" alt="Water Project" class="rounded-xl mb-4">
+          <h3 class="text-xl font-semibold text-green-700 mb-2">Water & Irrigation</h3>
+          <p>Our water initiative in Wuli Jah Kunda improves access to clean water for farming and domestic use.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS SECTION -->
+  <section id="products" class="py-16 bg-white">
+    <div class="container mx-auto px-6 md:px-12 text-center">
+      <h2 class="text-3xl font-bold text-green-800 mb-12">Products & Services</h2>
+      <div class="overflow-x-auto">
+        <table class="min-w-full bg-green-50 rounded-lg overflow-hidden shadow-md">
+          <thead class="bg-green-700 text-white">
+            <tr>
+              <th class="py-3 px-4">Product / Service</th>
+              <th class="py-3 px-4">Description</th>
+              <th class="py-3 px-4">Availability</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-green-200">
+              <td class="py-3 px-4 font-semibold">Fresh Vegetables</td>
+              <td class="py-3 px-4">Tomatoes, onions, pepper, okra</td>
+              <td class="py-3 px-4">All year</td>
+            </tr>
+            <tr class="border-b border-green-200">
+              <td class="py-3 px-4 font-semibold">Groundnuts</td>
+              <td class="py-3 px-4">High-quality, locally grown</td>
+              <td class="py-3 px-4">Seasonal</td>
+            </tr>
+            <tr class="border-b border-green-200">
+              <td class="py-3 px-4 font-semibold">Maize</td>
+              <td class="py-3 px-4">Fresh and dry maize for food & feed</td>
+              <td class="py-3 px-4">Seasonal</td>
+            </tr>
+            <tr class="border-b border-green-200">
+              <td class="py-3 px-4 font-semibold">Livestock</td>
+              <td class="py-3 px-4">Healthy goats, sheep, and poultry</td>
+              <td class="py-3 px-4">By request</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-4 font-semibold">Training</td>
+              <td class="py-3 px-4">Short courses for youth & farmers</td>
+              <td class="py-3 px-4">Monthly</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="py-16 bg-green-50">
+    <div class="container mx-auto px-6 md:px-12">
+      <h2 class="text-3xl font-bold text-center text-green-800 mb-12">Projects & Community Impact</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow-md">
+          <h3 class="text-2xl font-semibold text-green-700 mb-3">Wuli Jah Kunda Water Project</h3>
+          <p>Providing clean water for community members and farmers to improve productivity and food security.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-md">
+          <h3 class="text-2xl font-semibold text-green-700 mb-3">Youth Empowerment Initiative</h3>
+          <p>Training and engaging young people in modern farming during the Youth Day of Service and other programs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery" class="py-16 bg-white">
+    <div class="container mx-auto px-6 md:px-12 text-center">
+      <h2 class="text-3xl font-bold text-green-800 mb-8">Gallery</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <img src="images/gallery1.jpg" alt="Farm photo 1" class="rounded-xl shadow-md">
+        <img src="images/gallery2.jpg" alt="Farm photo 2" class="rounded-xl shadow-md">
+        <img src="images/gallery3.jpg" alt="Farm photo 3" class="rounded-xl shadow-md">
+      </div>
+      <div class="mt-8">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sample-video-id" title="Farm video" frameborder="0" allowfullscreen></iframe>
+        <!-- Replace 'sample-video-id' with your own YouTube video ID -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="py-16 bg-green-800 text-white">
+    <div class="container mx-auto px-6 md:px-12 text-center">
+      <h2 class="text-3xl font-bold mb-6">Contact Us</h2>
+      <p class="mb-4">We’d love to hear from you. Reach us for inquiries, partnerships, or to buy our farm produce.</p>
+      <p>📍 Wuli Jah Kunda, Upper River Region, The Gambia</p>
+      <p>📱 Phone/WhatsApp: +220 000 0000 <!-- Replace with your real number --></p>
+      <p>📧 Email: kebbehfarm@gmail.com <!-- Replace with your real email --></p>
+      <div class="mt-6">
+        <a href="#" class="bg-yellow-400 text-green-900 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500">Message Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-green-900 text-white text-center py-4">
+    <p>&copy; 2025 Kebbeh Agricultural Farm. All rights reserved.</p>
+  </footer>
+</body>
+</html>
