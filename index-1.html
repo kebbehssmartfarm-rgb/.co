@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kebbeh Green Farm</title>
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {font-family: 'Poppins', sans-serif; line-height: 1.6; background: #f6fff8; color: #333;}
+    header {background: #2d6a4f; color: white; padding: 20px 0; text-align: center;}
+    header h1 {font-size: 2.5em;}
+    nav {background: #40916c; text-align: center;}
+    nav a {color: white; padding: 15px 20px; display: inline-block; text-decoration: none; font-weight: bold;}
+    nav a:hover {background: #1b4332; border-radius: 10px;}
+    section {padding: 40px 20px; max-width: 1100px; margin: auto;}
+    h2 {color: #1b4332; text-align: center; margin-bottom: 20px;}
+    .home {background: url('sample-farm-image1.jpg') center/cover no-repeat; color: white; padding: 100px 20px; text-align: center; border-radius: 10px;}
+    .home h2 {font-size: 2.5em; color: white;}
+    .btn {background: #2d6a4f; color: white; padding: 12px 25px; border: none; border-radius: 5px; cursor: pointer; font-size: 1em; text-decoration: none;}
+    .btn:hover {background: #1b4332;}
+    .about, .products, .gallery, .innovation, .projects, .contact {background: #ffffff; margin: 30px 0; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 30px;}
+    .products-grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;}
+    .product-card {border: 1px solid #ddd; border-radius: 10px; text-align: center; padding: 15px; background: #f0fdf4;}
+    .product-card img {width: 100%; border-radius: 10px; height: 180px; object-fit: cover;}
+    .gallery-grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;}
+    .gallery-grid img, .gallery-grid video {width: 100%; border-radius: 10px;}
+    footer {background: #2d6a4f; color: white; text-align: center; padding: 20px; margin-top: 30px; border-top: 5px solid #1b4332;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kebbeh Green Farm</h1>
+    <p>Promoting sustainable farming through innovation and organic practices</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#products">Products</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#innovation">Technology</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home" class="home">
+    <h2>Welcome to Kebbeh Green Farm</h2>
+    <p>We produce fresh organic vegetables using eco-friendly methods in The Gambia.</p>
+    <a href="#contact" class="btn">Contact Us</a>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p><strong>Foday Kebbeh</strong>, the founder of Kebbeh Green Farm, started this initiative to improve local food production and promote sustainable agriculture in The Gambia. The farm integrates modern irrigation, organic practices, and community empowerment to ensure better yields and livelihoods.</p>
+    <p><em>Replace this section with your real story, farm location, and mission statement.</em></p>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Our Products</h2>
+    <div class="products-grid">
+      <div class="product-card">
+        <img src="sample-vegetable1.jpg" alt="Onions" />
+        <h3>Fresh Onions</h3>
+        <p>Grown organically and watered with solar-powered drip irrigation.</p>
+      </div>
+      <div class="product-card">
+        <img src="sample-vegetable2.jpg" alt="Tomatoes" />
+        <h3>Tomatoes</h3>
+        <p>Rich, juicy tomatoes harvested weekly.</p>
+      </div>
+      <div class="product-card">
+        <img src="sample-vegetable3.jpg" alt="Pepper" />
+        <h3>Sweet Peppers</h3>
+        <p>High-yield peppers produced under organic management.</p>
+      </div>
+      <div class="product-card">
+        <img src="sample-vegetable4.jpg" alt="Seedlings" />
+        <h3>Seedlings</h3>
+        <p>We supply high-quality seedlings for smallholder farmers.</p>
+      </div>
+    </div>
+    <p style="text-align:center; margin-top:20px;"><em>Replace images (sample-vegetable1.jpg etc.) with your own farm product photos.</em></p>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="sample-farm-image2.jpg" alt="Farm Field" />
+      <img src="sample-farm-image3.jpg" alt="Workers" />
+      <video controls>
+        <source src="sample-farm-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <img src="sample-farm-image4.jpg" alt="Harvest" />
+    </div>
+    <p style="text-align:center; margin-top:15px;"><em>Replace images/videos with your actual farm visuals.</em></p>
+  </section>
+
+  <section id="innovation" class="innovation">
+    <h2>Technology & Innovation</h2>
+    <p>At Kebbeh Green Farm, we use <strong>solar-powered drip irrigation</strong> to conserve water and increase crop yield. This system allows automatic watering, reducing labor and improving plant growth efficiency.</p>
+    <p><em>Replace this section with information about your unique farming methods, such as irrigation, composting, or climate-smart techniques.</em></p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Community Projects</h2>
+    <p>Our farm supports local youth and women farmers through training, employment, and community tree planting initiatives. We believe in giving back to build a greener future.</p>
+    <p><em>Replace this section with your real projects and impact details.</em></p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Location: Jarra Region, The Gambia</p>
+    <p>📞 Phone: +220 0000000</p>
+    <p>✉️ Email: kebbehfarm@gmail.com</p>
+    <p>💬 WhatsApp: <a href="https://wa.me/2200000000" target="_blank">Chat with us</a></p>
+    <form>
+      <label>Your Name:</label><br>
+      <input type="text" placeholder="Enter your name" style="width:100%;padding:10px;margin-bottom:10px;">
+      <label>Your Email:</label><br>
+      <input type="email" placeholder="Enter your email" style="width:100%;padding:10px;margin-bottom:10px;">
+      <label>Your Message:</label><br>
+      <textarea rows="4" placeholder="Type your message" style="width:100%;padding:10px;margin-bottom:10px;"></textarea>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kebbeh Green Farm | All Rights Reserved</p>
+    <p>Follow us on <a href="#" style="color:white;text-decoration:underline;">Facebook</a> | <a href="#" style="color:white;text-decoration:underline;">Instagram</a></p>
+  </footer>
+</body>
+</html>
